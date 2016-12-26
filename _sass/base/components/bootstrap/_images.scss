@@ -4,3 +4,11 @@
     max-width: 200px;
   }
 }
+.about {
+  &__image {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
