@@ -182,6 +182,13 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+    li {
+      h3 {
+        a {
+          color: white;
+        }
+      }
+    }
 }
 
 .post-meta {

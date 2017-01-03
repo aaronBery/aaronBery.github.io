@@ -1,6 +1,7 @@
 @import "utils/colors";
 @import "base/components/bootstrap/typography";
 @import "base/components/bootstrap/images";
+@import "base/components/bootstrap/tags";
 @import "base/components/bootstrap/layout";
 
 .jumbotron {
@@ -15,6 +16,7 @@
 }
 .navbar-brand {
   font-size: 2em;
+  min-height: $nav-bar-min-height;
 }
 .social-tray {
   position: absolute;
@@ -31,7 +33,18 @@
     right: 1em;
   }
 }
+
 .row {
+  &--my-work {
+    div {
+      min-height: 250px;
+    }
+  }
+  &--no-padding {
+    div {
+      padding: 0;
+    }
+  }
   &--disclaimer-footer {
     margin-top: 2em;
     padding-top: 1em;
@@ -39,5 +52,11 @@
     p {
       font-size: 0.8em;
     }
+  }
+}
+
+.container {
+  &--detail {
+    margin-top: $nav-bar-min-height;
   }
 }

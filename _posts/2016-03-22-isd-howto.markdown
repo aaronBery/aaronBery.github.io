@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: bootstrap-detail
 title:  "ISD How to Guides"
 date:   2016-03-22 21:28:28 +0000
-categories: angular
+categories: Angular
 ---
 This section contains demos on how to represent the ISD How to Guides using
 AJAX and a number of different JavaScript frameworks.

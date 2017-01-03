@@ -2,5 +2,4 @@ _site
 .sass-cache
 .jekyll-metadat
 **/node_modules
-.DS_STORE
-**/.DS_STORE
+**/.DS_Store

@@ -12,3 +12,8 @@
     background-repeat: no-repeat;
   }
 }
+.img {
+  &-md {
+    max-width: 300px;
+  }
+}

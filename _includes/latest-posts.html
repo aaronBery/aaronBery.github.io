@@ -3,11 +3,13 @@
 {% for category in site.categories %}
   {% if category.first == page.showSpecificCategoryPosts %}
   <li>
-    <h3><a name="{{ category | first }}">{{ category | first }}</a></h3>
+    <!--<h3><a name="{{ category | first }}">{{ category | first }}</a></h3>-->
     <ul>
     {% for posts in category %}
       {% for post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% if post.title %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
       {% endfor %}
     {% endfor %}
     </ul>

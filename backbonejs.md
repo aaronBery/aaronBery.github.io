@@ -1,5 +1,5 @@
 ---
-layout: widepage
+layout: bootstrap-detail
 title: Backbone.js
 permalink: /backbonejs/
 palette: brightblueyellow
