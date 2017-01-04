@@ -1,15 +1,19 @@
 .tags {
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: inline-block;
   padding: 0;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   @media only screen and (max-width: 767px) {
     flex-direction: column;
+    margin-bottom: 1rem;
   }
   li {
+    display: inline;
     padding: 1rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
     background: $turquoise;
     color: white;
     &:last-of-type {
