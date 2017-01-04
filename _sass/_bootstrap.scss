@@ -10,6 +10,11 @@
   p {
     color: mix(white,grey,60);
   }
+  h1 {
+    @media only screen and (max-width: 767px) {
+      margin-top: 4rem;
+    }
+  }
   .container {
     position: relative;
   }
@@ -58,5 +63,9 @@
 .container {
   &--detail {
     margin-top: $nav-bar-min-height;
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 }
