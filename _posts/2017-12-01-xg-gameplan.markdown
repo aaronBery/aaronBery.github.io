@@ -13,7 +13,7 @@ categories: Angular Bootstrap
   <span class="col-md-6">
     <figure class="figure">
       <img src="/assets/images/xg-gameplan.jpg" alt="Vuelio Canvas" class="figure-img img-thumbnail"/>
-      <figcaption class="figure-caption">Public view of Canvas in Vuelio UI.</figcaption>
+      <figcaption class="figure-caption">Screen from xG Gameplan promo</figcaption>
     </figure>
   </span>
 </div>
