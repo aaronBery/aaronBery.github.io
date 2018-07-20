@@ -1,4 +1,6 @@
 .sass-cache
+_site
+_site.zip
 .jekyll-metadat
 **/node_modules
 **/.DS_Store
